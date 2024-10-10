@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/FreshTableGreens/static/css/main.8d44b865.css",
+    "main.js": "/FreshTableGreens/static/js/main.f1b2dad1.js",
+    "static/js/488.9076082d.chunk.js": "/FreshTableGreens/static/js/488.9076082d.chunk.js",
+    "static/media/icon4.gif": "/FreshTableGreens/static/media/icon4.f92c3cb983db388207d3.gif",
+    "static/media/fa-solid-900.ttf": "/FreshTableGreens/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/icon1.gif": "/FreshTableGreens/static/media/icon1.87e03add658296c0eddb.gif",
+    "static/media/icon3.gif": "/FreshTableGreens/static/media/icon3.70a1b229d2890b02df31.gif",
+    "static/media/icon2.gif": "/FreshTableGreens/static/media/icon2.daa65e97283b314010b8.gif",
+    "static/media/logo.png": "/FreshTableGreens/static/media/logo.f92c082b03e54f296dc9.png",
+    "static/media/fa-brands-400.ttf": "/FreshTableGreens/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/community.jpg": "/FreshTableGreens/static/media/community.4fbdf3a086ce336545df.jpg",
+    "static/media/hero-image.jpg": "/FreshTableGreens/static/media/hero-image.83b6ca6b6cb1b3a6c184.jpg",
+    "static/media/fa-solid-900.woff2": "/FreshTableGreens/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/operations.jpg": "/FreshTableGreens/static/media/operations.cbd6e83aae11cda752bb.jpg",
+    "static/media/fa-brands-400.woff2": "/FreshTableGreens/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/planet.jpg": "/FreshTableGreens/static/media/planet.33a28a54613d36a3aa3f.jpg",
+    "static/media/partners.jpg": "/FreshTableGreens/static/media/partners.30e16ff818de00e72073.jpg",
+    "static/media/governance.jpg": "/FreshTableGreens/static/media/governance.9f52eefb26547ee7a600.jpg",
+    "static/media/fa-regular-400.ttf": "/FreshTableGreens/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/FreshTableGreens/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/FreshTableGreens/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/FreshTableGreens/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/FreshTableGreens/index.html",
+    "main.8d44b865.css.map": "/FreshTableGreens/static/css/main.8d44b865.css.map",
+    "main.f1b2dad1.js.map": "/FreshTableGreens/static/js/main.f1b2dad1.js.map",
+    "488.9076082d.chunk.js.map": "/FreshTableGreens/static/js/488.9076082d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d44b865.css",
+    "static/js/main.f1b2dad1.js"
+  ]
+}
