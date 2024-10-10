@@ -1,0 +1,50 @@
+/* Hero Section */
+/* Hero Section */
+.hero {
+  background-image: url('../assets/hero-image.jpg'); /* Ensure correct image */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  max-width: 1100px;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5); /* Add a transparent background to text */
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 2rem; /* Adjust to fit smaller hero section */
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  padding: 0.8rem 2rem;
+  background-color: #8DAA91; /* Muted green (same as search button) */
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px; /* Ensure rounded corners like the search button */
+}
+
+.cta-button:hover {
+  background-color: #6b8e62; /* Darker green on hover (same as search button hover) */
+  color: white;
+}
