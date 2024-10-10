@@ -1,11 +1,14 @@
-// src/components/NewsItem.js
 import React from 'react';
+import '../styles/NewsItem.css';
 
-const NewsItem = ({ title, description }) => {
+const NewsItem = ({ title, description, imageUrl }) => {
   return (
     <div className="news-item">
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <img className="news-item-image" src={imageUrl} alt={title} />
+      <div className="news-item-content">
+        <h3 className="news-item-title">{title}</h3>
+        <p className="news-item-description">{description}</p>
+      </div>
     </div>
   );
 };

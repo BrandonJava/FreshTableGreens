@@ -2,7 +2,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import About from '../components/About';
-import Sustainability from '../components/Sustainability';
+import ProductsCarousel from '../components/ProductsCarousel';
 import NewsList from '../components/NewsList';
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <Hero />
       <About />
-      <Sustainability />
+      <ProductsCarousel />
       <NewsList />
     </div>
   );

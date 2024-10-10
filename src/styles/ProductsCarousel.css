@@ -1,0 +1,117 @@
+  .carousel-wrapper {
+    background: linear-gradient(to bottom, #9ef89b, #e1f7e0); /* Light-green gradient */
+    padding: 35px 0;  /* Reduced padding */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* Container for the entire carousel */
+.carousel-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  /* Styling for each carousel item */
+  .carousel-item {
+    text-align: center;
+    color: white; /* Text color in the carousel */
+  }
+  
+  /* Adjust the images */
+  .carousel-item img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add a background to the carousel section */
+  .carousel-background {
+    background: linear-gradient(to bottom, #eaf9e0, #c6f5c4); /* Light green gradient */
+    padding: 50px 0;
+  }
+  
+  /* Button controls for the carousel (next, prev) */
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: transparent; /* Transparent background for controls */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #729e67; /* Match the button color */
+    padding: 15px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-size: 100%, 100%;
+    display: inline-block;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M11.354 1.146a.5.5 0 0 1 0 .708L6.707 6.5H15.5a.5.5 0 0 1 0 1H6.707l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.646 14.854a.5.5 0 0 1 0-.708L9.293 9.5H.5a.5.5 0 0 1 0-1h8.793L4.646 3.354a.5.5 0 0 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708 0z'/%3E%3C/svg%3E");
+  }
+  
+  /* Carousel captions */
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white !important; /* Reverting text color to white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adding some shadow for readability */
+  }
+  
+  .carousel-caption h3 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  /* Indicators: changing from lines to circles and applying green button color */
+  .carousel-indicators {
+    bottom: -20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; /* Make the indicators circular */
+    background-color: #c6f5c4; /* Inactive state */
+    border: none;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #729e67; /* Active state in darker green */
+  }
+  
+  @media (max-width: 768px) {
+    /* Reduce image height on mobile */
+    .carousel-item img {
+      height: 300px;
+    }
+    /* Adjust caption sizes */
+    .carousel-caption h3 {
+      font-size: 20px;
+    }
+    .carousel-caption p {
+      font-size: 14px;
+    }
+  }
+  

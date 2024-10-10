@@ -1,11 +1,11 @@
 // src/pages/SustainabilityPage.js
 import React from 'react';
-import Sustainability from '../components/Sustainability';
+import ProductsCarousel from '../components/ProductsCarousel';
 
 const SustainabilityPage = () => {
   return (
     <div>
-      <Sustainability />
+      <ProductsCarousel />
     </div>
   );
 };

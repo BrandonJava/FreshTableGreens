@@ -1,21 +1,21 @@
-/* src/styles/Footer.css */
-footer {
-  padding: 2rem;
-  background-color: #24304E;
-  color: white;
+.footer {
+  padding: 20px;
+  background-color: #d2b489;
   text-align: center;
 }
 
-.social-media {
-  margin-top: 1rem;
+.footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
-.social-media a {
-  margin: 0 1rem;
-  color: white;
+.social-links a {
+  color: #2d572c;
+  margin: 0 10px;
+  font-size: 20px;
   text-decoration: none;
 }
 
-.social-media a:hover {
-  text-decoration: underline;
+.social-links a:hover {
+  color: #1d3f1f;
 }

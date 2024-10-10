@@ -9,6 +9,8 @@ import SustainabilityPage from './pages/SustainabilityPage';
 import NewsPage from './pages/NewsPage';
 import ContactPage from './pages/ContactPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 
 

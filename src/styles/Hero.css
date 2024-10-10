@@ -1,50 +1,56 @@
-/* Hero Section */
+/* Hero Wrapper */
+.hero-wrapper {
+  background: linear-gradient(to bottom, #9ef89b, #e1f7e0); /* Light-green gradient */
+  padding: 35px 0;  /* Reduced padding */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Hero Section */
 .hero {
-  background-image: url('../assets/hero-image.jpg'); /* Ensure correct image */
+  width: 36%; /* Further reduce the image width by another 40% */
+  height: 300px;  /* Adjust height if needed */
+  background-image: url('../assets/hero-image.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
-  max-width: 1100px;
-  margin: 2rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  color: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
 }
 
 .hero-content {
-  background: rgba(0, 0, 0, 0.5); /* Add a transparent background to text */
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Add contrast to the text */
   padding: 1.5rem;
   border-radius: 8px;
-  text-align: center;
-  color: white;
-  max-width: 600px;
 }
 
-.hero h1 {
-  font-size: 2rem; /* Adjust to fit smaller hero section */
+.hero-content h1 {
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.hero p {
+.hero-content p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
 .cta-button {
   padding: 0.8rem 2rem;
-  background-color: #8DAA91; /* Muted green (same as search button) */
+  background-color: #8DAA91; /* Muted green, same as other buttons */
   color: white;
   border: none;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border-radius: 4px; /* Ensure rounded corners like the search button */
+  border-radius: 4px;
 }
 
 .cta-button:hover {
-  background-color: #6b8e62; /* Darker green on hover (same as search button hover) */
-  color: white;
+  background-color: #6b8e62; /* Darker green on hover */
 }
